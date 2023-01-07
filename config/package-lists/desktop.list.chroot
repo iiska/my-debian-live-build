@@ -1,0 +1,8 @@
+task-gnome-desktop
+task-print-server
+
+plymouth
+plymouth-x11
+
+gstreamer1.0-vaapi
+i965-va-driver
