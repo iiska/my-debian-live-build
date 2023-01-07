@@ -2,6 +2,8 @@
 
 set -e
 
+mirror_url="https://www.nic.funet.fi/debian/"
+
 case "$(dpkg --print-architecture)" in
 	amd64)
 		_SOURCE="true"
@@ -20,4 +22,7 @@ lb config noauto \
 	--linux-packages "linux-image-5.19.0-0.deb11.2 linux-headers-5.19.0-0.deb11.2" \
 	--source "${_SOURCE}" \
 	--backports true \
+	--mirror-binary $mirror_url \
+	--mirror-binary-updates $mirror_url \
+	--mirror-binary-backports $mirror_url \
 "${@}"
