@@ -1,7 +1,7 @@
 # open-vm-tools
-open-vm-tools
-open-vm-tools-desktop
-open-vm-tools-dkms
+#open-vm-tools
+#open-vm-tools-desktop
+#open-vm-tools-dkms
 
 #if PARENT_ARCHIVE_AREAS contrib
 	# virtualbox
