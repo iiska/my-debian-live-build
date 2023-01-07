@@ -1,6 +1,16 @@
-This is the configuration tree for:
+* My Debian live image
 
-  Debian GNOME Desktop
+Debian ~live-build~ configuration customized from official [[https://salsa.debian.org/live-team/live-images/-/tree/debian/images/gnome-desktop][Debian GNOME Desktop
+base image]].
+
+** Customizations
+
+Main goal for this repo is to provide image for:
+
+- Evaluating Debian safely on new hardware
+- Include backported kernel images and device firmwares to live and installation environments to extend hardware support
+
+** Usage
 
 A software called live-build can be used to automatically build images from
 this configuration tree.
