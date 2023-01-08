@@ -18,6 +18,8 @@ lb config noauto \
 	--clean \
 	--ignore-system-defaults \
 	--mode debian \
+	--distribution bullseye \
+	--archive-areas "main contrib non-free" \
 	--debian-installer live \
 	--linux-packages "linux-image-5.19.0-0.deb11.2 linux-headers-5.19.0-0.deb11.2" \
 	--source "${_SOURCE}" \
